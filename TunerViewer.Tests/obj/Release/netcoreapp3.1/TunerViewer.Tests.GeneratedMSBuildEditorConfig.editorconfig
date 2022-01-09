@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TunerViewer.Tests
+build_property.ProjectDir = C:\Git\TunerViewer\TunerViewer.Tests\
