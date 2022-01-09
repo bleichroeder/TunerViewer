@@ -13,7 +13,7 @@ namespace TunerViewer.Tests
             DeviceDiscoverer discoverer = new DeviceDiscoverer();
 
             RemoteDeviceDiscoveryRequest request = new RemoteDeviceDiscoveryRequest
-                (@"eyes\tvuser", @"tvice", "bufcap01.tveyes.com", true);
+                (@"user", @"password", "hostname", true);
 
             DeviceDiscoveryResponse response = discoverer.DiscoverRemoteDevices(request);
 
@@ -26,7 +26,7 @@ namespace TunerViewer.Tests
             DeviceDiscoverer discoverer = new DeviceDiscoverer();
 
             RemoteDeviceDiscoveryRequest request = new RemoteDeviceDiscoveryRequest
-                (@"eyes\tvuser", @"tvice", "bufcap01.tveyes.com", false);
+                (@"user", @"password", "hostname", false);
 
             DeviceDiscoveryResponse response = discoverer.DiscoverRemoteDevices(request);
 

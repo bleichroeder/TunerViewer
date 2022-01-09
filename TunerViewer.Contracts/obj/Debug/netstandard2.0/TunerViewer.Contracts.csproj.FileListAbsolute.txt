@@ -1,9 +1,0 @@
-C:\Git\TunerViewer\TunerViewer.Contracts\bin\Debug\netstandard2.0\TunerViewer.Contracts.deps.json
-C:\Git\TunerViewer\TunerViewer.Contracts\bin\Debug\netstandard2.0\TunerViewer.Contracts.dll
-C:\Git\TunerViewer\TunerViewer.Contracts\bin\Debug\netstandard2.0\TunerViewer.Contracts.pdb
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.csprojAssemblyReference.cache
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.AssemblyInfoInputs.cache
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.AssemblyInfo.cs
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.csproj.CoreCompileInputs.cache
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.dll
-C:\Git\TunerViewer\TunerViewer.Contracts\obj\Debug\netstandard2.0\TunerViewer.Contracts.pdb
