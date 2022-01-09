@@ -27,7 +27,7 @@ Graphing and AdvancedGraphing allow for the recording and visualization of tuner
 
 TunerViewer.Library can be used to discover and monitor local and remote devices. This can be done in a few different ways.
 
-Local discovery can be done using UDP broadcast, or by parsing the ARP table for partial MAC addresses. Both are performed by using the DeviceDiscoverer class and using either the DiscoverLocalDevicesByUDPBroadcast method or the DiscoverLocalDevicesByMACAddress method.\
+Local discovery can be done using UDP broadcast, or by parsing the ARP table for partial MAC addresses. Both are performed by using the DeviceDiscoverer class and using either the DiscoverLocalDevicesByUDPBroadcast method or the DiscoverLocalDevicesByMACAddress method.
 
 ```
             DeviceDiscoveryResponse response = new DeviceDiscoverer()
@@ -40,11 +40,11 @@ Local discovery can be done using UDP broadcast, or by parsing the ARP table for
 ```
 
 Remote discovery can be performed by DeviceDiscoverer using one of two methods.\
-If present on the remote host, the DeviceDiscoverer can call hdhomerun_config.exe on the remote host to discover devices, and parse the resulting output for IP addresses by using the DiscoverRemoteDevices method.\
+If present on the remote host, the DeviceDiscoverer can call hdhomerun_config.exe on the remote host to discover devices, and parse the resulting output for IP addresses by using the DiscoverRemoteDevices method.
 
-Alternatively, the DeviceDiscoverer can parse the ARP table on the remote host for partial MAC addresses/IP Addresses by using the DiscoverRemoteDevices method.\
+Alternatively, the DeviceDiscoverer can parse the ARP table on the remote host for partial MAC addresses/IP Addresses by using the DiscoverRemoteDevices method.
 
-Both methods require a RemoteDeviceDiscoveryRequest. This object contains a RemoteHost name, the user and password for the remote host, and a boolean value instructing the method whether to use hdhomerun_config.exe or parse the ARP table.\
+Both methods require a RemoteDeviceDiscoveryRequest. This object contains a RemoteHost name, the user and password for the remote host, and a boolean value instructing the method whether to use hdhomerun_config.exe or parse the ARP table.
 
 ```
 RemoteDeviceDiscoveryRequest request = new RemoteDeviceDiscoveryRequest
@@ -54,6 +54,6 @@ RemoteDeviceDiscoveryRequest request = new RemoteDeviceDiscoveryRequest
                 .DiscoverRemoteDevices(request);
 ```
 
-The DeviceDiscoveryResponse object contains a Dictionary<string, DeviceInfo>. Each DeviceInfo object contains device properties and a List<TunerInfo>, as well as various methods used to update/control it's list of TunerInfo objects ie. RefreshAllTunerInfos() or ReturnTunersWithStreamingRateBelow(double threshold) etc...\
+The DeviceDiscoveryResponse object contains a Dictionary<string, DeviceInfo>. Each DeviceInfo object contains device properties and a List<TunerInfo>, as well as various methods used to update/control it's list of TunerInfo objects ie. RefreshAllTunerInfos() or ReturnTunersWithStreamingRateBelow(double threshold) etc...
 
 Each TunerInfo object can call the RefreshTunerInfo method to refresh tuner stats, as well as various methods for detecting issues like low signal or streaming rates.
